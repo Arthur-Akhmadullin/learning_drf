@@ -1,0 +1,14 @@
+{% extends 'djps_app/base.html' %}
+{% load static %}
+
+{% block title %}
+	{{ item.title }}
+{% endblock %}
+
+{% block content %}     
+    
+	<h2>{{ item.title }}</h2>
+	<h4>{{ item.date }}</h4>
+	<p>{% autoescape off %}{{ item.body }}{% endautoescape %}</p>		
+	    
+{% endblock %}

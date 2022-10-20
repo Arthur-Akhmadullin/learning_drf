@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+	<meta charset="utf-8" />   
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap" rel="stylesheet">	  
+	<title>
+	{% block title %}
+		Articles
+	{% endblock %}
+	</title> 
+ </head>
+
+<body 
+	{% block bodyclass %}
+	{% endblock %}
+>
+
+	<main class="container">		
+		{% block content %}			
+		{% endblock %}
+	</main>
+</body>
+</html>
