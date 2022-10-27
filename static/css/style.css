@@ -1,0 +1,24 @@
+html,
+body {
+    /*min-width: 1122px;
+    min-height: 1750px;*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 960px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase; 
+    background: #000000 url(../images/tint.png) no-repeat center top;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
